@@ -24,3 +24,14 @@ After you complete this exercise, you will be able to:
 ## Duration
 
 * **Estimated Time:** 60 minutes
+
+{: .note }
+> By default the Azure provider Microsoft.App is not registered. 
+
+### Register the Microsoft.App Provider
+Follow these steps 
+
+1. Open the Scription 
+1. Go to Settings --> Resource Providers
+1. Search for Microsoft.App 
+1. Click Register
