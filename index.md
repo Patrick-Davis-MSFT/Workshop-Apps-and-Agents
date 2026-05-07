@@ -21,9 +21,9 @@ This lab has exercises on:
 * Resource cleanup
 
 This GitHub Pages lab is available as GitHub pages [here](https://patrick-davis-msft.github.io/Workshop-Apps-and-Agents/).
-A GitHub Repository for this lab is available [here](https://github.com/microsoft/TechWorkshop-L300-AI-Apps-and-agents/).
+A GitHub Repository for this lab is available [here](https://github.com/Patrick-Davis-MSFT/Workshop-Apps-and-Agents/).
 
-Fork or Download [the repository](https://github.com/microsoft/TechWorkshop-L300-AI-Apps-and-agents/) before starting work.
+Fork or Download [the repository](https://github.com/Patrick-Davis-MSFT/Workshop-Apps-and-Agents/) before starting work.
 
 
 ## Prerequisites
