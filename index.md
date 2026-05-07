@@ -20,11 +20,16 @@ This lab has exercises on:
 * Red Teaming AI Agents
 * Resource cleanup
 
-The lab is available as GitHub pages [here](https://microsoft.github.io/TechWorkshop-L300-AI-Apps-and-agents/).
+This GitHub Pages lab is available as GitHub pages [here](https://patrick-davis-msft.github.io/Workshop-Apps-and-Agents/).
+A GitHub Repository for this lab is available [here](https://github.com/microsoft/TechWorkshop-L300-AI-Apps-and-agents/).
+
+> [!Important]
+> Clone or Download [the repository](https://github.com/microsoft/TechWorkshop-L300-AI-Apps-and-agents/) before starting work
+
 
 ## Prerequisites
 
 For running this lab you will need:
 
-* An MCAPS subscription with access to Microsoft Foundry. External MCAPS subscriptions are preferred, though internal MCAPS subscriptions should work as well. Microsoft EMU accounts will not have sufficient privileges to perform all of the actions necessary.
+* A Microsoft Subscription with Owner Role on the Subscription
 * A desktop, laptop, or virtual machine and access to install software on that machine.
