@@ -23,8 +23,7 @@ This lab has exercises on:
 This GitHub Pages lab is available as GitHub pages [here](https://patrick-davis-msft.github.io/Workshop-Apps-and-Agents/).
 A GitHub Repository for this lab is available [here](https://github.com/microsoft/TechWorkshop-L300-AI-Apps-and-agents/).
 
-> [!Important]
-> Clone or Download [the repository](https://github.com/microsoft/TechWorkshop-L300-AI-Apps-and-agents/) before starting work
+Fork or Download [the repository](https://github.com/microsoft/TechWorkshop-L300-AI-Apps-and-agents/) before starting work.
 
 
 ## Prerequisites
