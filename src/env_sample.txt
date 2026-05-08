@@ -3,10 +3,12 @@ AZURE_TRACING_GEN_AI_CONTENT_RECORDING_ENABLED="true"
 
 # Microsoft Foundry credentials
 FOUNDRY_ENDPOINT=""
+FOUNDRY_API_KEY=""
 FOUNDRY_API_VERSION="2025-01-01-preview"
 
 # GPT credentials
 gpt_endpoint=""
+gpt_api_key=""
 gpt_deployment="gpt-5.4-mini"
 gpt_api_version="2025-01-01-preview"
 
