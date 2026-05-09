@@ -18,6 +18,7 @@
 				"ms-azuretools.vscode-bicep",
 				"ms-azuretools.vscode-azure-mcp-server",
 				"ms-azuretools.vscode-azureresourcegroups",
+        		"ms-azuretools.vscode-azure-github-copilot",
 				"ms-python.python"
 			]
 		}
