@@ -213,6 +213,46 @@ resource containerAppAcrPullRole 'Microsoft.Authorization/roleAssignments@2022-0
   }
 }
 
+var acrCGUserRoleId = 'a97b65f3-24c7-4388-baec-2e87135dc908'
+
+@description('Grants the Container App managed identity AcrPull on the Container Registry.')
+resource containerAppCGUserRole 'Microsoft.Authorization/roleAssignments@2022-04-01' = {
+  name: guid(containerRegistry.id, containerApp.id, acrCGUserRoleId)
+  scope: containerRegistry
+  properties: {
+    roleDefinitionId: subscriptionResourceId('Microsoft.Authorization/roleDefinitions', acrCGUserRoleId)
+    principalId: containerApp.identity.principalId
+    principalType: 'ServicePrincipal'
+  }
+}
+
+var acrAIUserRoleId = '53ca6127-db72-4b80-b1b0-d745d6d5456d'
+
+@description('Grants the Container App managed identity AcrPull on the Container Registry.')
+resource containerAppAIUserRole 'Microsoft.Authorization/roleAssignments@2022-04-01' = {
+  name: guid(containerRegistry.id, containerApp.id, acrAIUserRoleId)
+  scope: containerRegistry
+  properties: {
+    roleDefinitionId: subscriptionResourceId('Microsoft.Authorization/roleDefinitions', acrAIUserRoleId)
+    principalId: containerApp.identity.principalId
+    principalType: 'ServicePrincipal'
+  }
+}
+
+var acrAIDevRoleId = '64702f94-c441-49e6-a78b-ef80e0188fee'
+
+@description('Grants the Container App managed identity AcrPull on the Container Registry.')
+resource containerAppAIDevRole 'Microsoft.Authorization/roleAssignments@2022-04-01' = {
+  name: guid(containerRegistry.id, containerApp.id, acrAIDevRoleId)
+  scope: containerRegistry
+  properties: {
+    roleDefinitionId: subscriptionResourceId('Microsoft.Authorization/roleDefinitions', acrAIDevRoleId)
+    principalId: containerApp.identity.principalId
+    principalType: 'ServicePrincipal'
+  }
+}
+
+
 @description('Creates an Azure Container App for Zava.')
 resource containerApp 'Microsoft.App/containerApps@2024-03-01' = {
   name: containerAppName
